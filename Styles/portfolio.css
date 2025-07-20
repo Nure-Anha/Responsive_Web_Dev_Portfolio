@@ -265,6 +265,13 @@ hr{
     margin-bottom: 30px;
 }
 
+.bttn_phnsz{
+    margin-right: 30px; 
+    margin-top: 90px; 
+    margin-left: 500px; 
+    margin-bottom: 130px;
+}
+
 .connect{
     font-weight: bold;
     font-size: 35px;
@@ -335,16 +342,60 @@ footer textarea{
     .skills_container,
     .resume_col_container,
     .footer_part,
-    .about_items{
+    .about_items,
+    .banner, 
+    nav,
+    nav ul{
             flex-direction: column;
     }
+     nav ul{
+        gap: 20px;
+     }
     .skills_container{
         align-items: center;
     }
+    .banner{
+        margin: 20px;
+    }
+    header{
+        background-image: none;
+    }
+    .banner_png{
+        width: 100%;
+    }
+    .banner_p{
+        width: 400px;
+        height: 100px;
+        
+    }
+    .btn_primary{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
     .resum_heading, .subheading, .subhead2, .resume_descrip{
         padding-left: 10px;  /*self*/
+        width: 350px;
+        height: 70px;
+    }
+    hr{
+        width: 380px;
+    }
+
+    .bttn_phnsz{
+        margin: 40px;
+       
     }
     
+
+
+
+
+
     .footer_part{
       
         padding: 20px; /*self*/
@@ -361,7 +412,7 @@ footer textarea{
     }
 
     .about{
-        padding: 2px;
+        padding: 20px;
    
     }
     .about_box{     /*self*/
